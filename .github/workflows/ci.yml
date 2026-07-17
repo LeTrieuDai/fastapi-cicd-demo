@@ -36,4 +36,4 @@ jobs:
       # Bước 4: chạy test — nếu bất kỳ test nào fail,
       # step này fail → job fail → commit bị đánh dấu ❌
       - name: Run tests with pytest
-        run: pytest -v
+        run: python -m pytest -v
